@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">GithubRepoTask</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_repositories">Repositories</string>
+    <string name="txt_search_github_repositories">Search GitHub Repositories</string>
+    <string name="txt_github_username">GitHub Username</string>
+    <string name="txt_please_enter_a_username">Please enter a username</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_recent_searches">Recent Searches</string>
+    <string name="txt_no_repositories_found">No repositories found.</string>
+    <string name="txt_no_internet_connection">No internet connection</string>
+    <string name="txt_webview">WebView</string>
 </resources>
