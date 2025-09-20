@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GithubRepoTask</string>
+    <string name="app_name">SchoolApp</string>
     <string name="txt_back">Back</string>
     <string name="txt_repositories">Repositories</string>
     <string name="txt_search_github_repositories">Search GitHub Repositories</string>
@@ -10,4 +10,19 @@
     <string name="txt_no_repositories_found">No repositories found.</string>
     <string name="txt_no_internet_connection">No internet connection</string>
     <string name="txt_webview">WebView</string>
+    <string name="school_details">School Details</string>
+    <string name="no_school_selected">No school selected</string>
+    <string name="school_details_title">School Details</string>
+    <string name="school_label">School: %1$s</string>
+    <string name="borough_label">Borough: %1$s</string>
+    <string name="phone_label">Phone: %1$s</string>
+    <string name="website_label">Website: %1$s</string>
+    <string name="sat_scores_label">SAT Scores:</string>
+    <string name="math_avg_label">Math Avg: %1$s</string>
+    <string name="reading_avg_label">Reading Avg: %1$s</string>
+    <string name="writing_avg_label">Writing Avg: %1$s</string>
+    <string name="not_available">N/A</string>
+    <string name="back">Back</string>
+    <string name="schools">Schools</string>
+    <string name="sat_not_available">SAT not available</string>
 </resources>

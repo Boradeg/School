@@ -1,18 +1,21 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.kotlin.compose)
+
     id("kotlin-kapt")
     id("com.google.dagger.hilt.android")
+
 }
 
 android {
-    namespace = "com.app.githubrepotask"
-    compileSdk = 35
+    namespace = "com.app.schoolApp"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.app.githubrepotask"
+        applicationId = "com.app.schoolApp"
         minSdk = 27
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -70,18 +73,18 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation("com.google.dagger:hilt-android:2.51")
-    kapt("com.google.dagger:hilt-compiler:2.51")
-    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
-    implementation("androidx.room:room-runtime:2.6.1")
-    kapt("androidx.room:room-compiler:2.6.1")
-    implementation("androidx.room:room-ktx:2.6.1")
+    implementation(libs.hilt.android)
+    kapt(libs.dagger.hilt.compiler)
+    implementation(libs.androidx.hilt.navigation.compose)
+    implementation(libs.androidx.room.runtime)
+    kapt(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
     // Retrofit
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
 
     // OkHttp (Optional but recommended for logging/debugging)
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
 
 }
