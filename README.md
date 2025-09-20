@@ -8,10 +8,8 @@ This project showcases a modern Android application with clean architecture and 
 ## ✨ Features
 
 - **Home Screen**: Displays promotional banners and product categories.
-- **Orders Screen**: Shows user's past and ongoing orders.
 - **Modern UI**: Built using **Jetpack Compose** and **Material3**.
 - **Shared ViewModel** across tabs using **StateFlow** for consistent state management.
-- **Dummy data** fetched via JSON from Mocki simulating real-world API calls.
 - **Clean, modular and scalable codebase** ready for production use.
 
 ---
