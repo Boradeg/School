@@ -22,13 +22,14 @@ This project showcases a modern Android application with clean architecture and 
 ### 🏠 Home Screen
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/20faa3a6-79c1-4eb3-ba41-3b15865d8656" width="30%" />
-  <img src="" width="30%" />
+   <img src="https://github.com/user-attachments/assets/e10b9478-32be-4124-8e4e-871d27a64de6" width="30%" />
+
 </p>
 
 ### 🏠 Detailed School Info Screen
 <p float="left">
- <img src="https://github.com/user-attachments/assets/886561a9-d3f6-4e2e-bb7c-1131cd73672a" width="30%" />
+    <img src="https://github.com/user-attachments/assets/8efbad9c-7a24-43de-adbc-0299ab6ddb6d" width="30%" />
+
 </p>
 ---
 
